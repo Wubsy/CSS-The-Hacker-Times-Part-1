@@ -1,1 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body {
+    background-color: #eee;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: 400; /* Makes it hard to read when you lower it below default. Parts of the letters seem to disappear. If this did not occur, I would go lower. Ex: https://i.imgur.com/r6PeHUi.png */
+}
+
+.date {
+    font-size: 0.75em;
+}
+
+.newspaper-container {
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ddd;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 3em auto;
+    background-color: white;
+}
+
+header h1 {
+    font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 3px 0;
+    margin: 1em 0;
+    position: sticky;
+    background: white;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 0.4em;
+}
+
+nav a {
+    color: #777;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+main h2 {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+
+main h5 {
+    font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
+    color: #dd3232;
+    margin-top: 0.5em;
+}
+
+main img {
+    width: 100%;
+}
+
+.more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+}
+
+.more-articles img {
+    width: 100%;
+}
+
+.more-articles h4 {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+}
